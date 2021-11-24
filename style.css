@@ -1,0 +1,53 @@
+body {
+    background-color: lightskyblue;
+    color: darkslateblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+p {
+    background-color: white;
+    font-size: 26px;
+    font-weight: bold;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.content {
+    text-align: center;
+}
+
+.controls {
+    padding-top: 50px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.button {
+    padding: 20px;
+    width: 15%;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+#announcement {
+    padding-top: 70px;
+    font-size: 32px;
+}
+
+#winner {
+    padding-top: 30px;
+    font-size: 3em;
+}
